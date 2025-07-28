@@ -1,0 +1,11 @@
+{
+  "name": "orion-fullstack-app",
+  "scripts": {
+    "orion": "npm start --prefix orion",
+    "backend": "npm start --prefix backend",
+    "start": "concurrently \"npm run backend\" \"npm run orion\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
